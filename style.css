@@ -1,0 +1,44 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	flex: 1;
+	color: green;
+}
+
+.title .snelkopelingen{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+
+}
+
+table {
+    border: 1;
+    border-style: dotted;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-between;
+}
+    
+html {
+	scroll-behavior: smooth;
+    background-color: darkgray;
+}
+
+a {
+    color: green;
+    text-decoration: solid;
+}
+
+a:hover {
+    color: darkgreen;
+    background-color: chartreuse;
+    text-decoration: wavy;
+}
