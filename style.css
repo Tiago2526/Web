@@ -1,5 +1,5 @@
-*{
-    font-family: Arial, Helvetica, sans-serif;
+* {
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
@@ -7,58 +7,53 @@ h1 {
 	color: green;
 }
 
-.title .snelkopelingen{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+.title .snelkopelingen {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
 }
 
 button {
-    margin: 25px;
-    border: solid;
-    padding: 10px;
-    border-color: green;
-    background-color: green;
+	margin: 25px;
+	border: solid;
+	padding: 10px;
+	border-color: green;
+	background-color: green;
 }
 
-/* iframe {
-    display: flex;
-    justify-content: center;
-} */
-
 .video-wrapper {
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 table {
-    border: 8px;
-    border-color: green;
-    border-style: double;
-    background-color: green;
+	border: 8px;
+	border-color: green;
+	border-style: double;
+	background-color: green;
 }
 
 .logo {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    align-content: space-between;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	align-content: space-between;
 }
-    
+
 html {
 	scroll-behavior: smooth;
-    background-color: darkgray;
+	background-color: darkgray;
 }
 
 table a {
-    color: black;
-    text-decoration: solid;
+	color: black;
+	text-decoration: solid;
 }
 
 a:hover {
-    color: darkgreen;
-    background-color: chartreuse;
-    text-decoration: wavy;
+	color: darkgreen;
+	background-color: chartreuse;
+	text-decoration: wavy;
 }
